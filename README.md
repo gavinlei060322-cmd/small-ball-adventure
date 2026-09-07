@@ -6,6 +6,16 @@ Small Ball Adventure is my first game project. I built it independently in Unrea
 
 **[Watch the gameplay demo on YouTube](https://youtu.be/G0ebrOazVws)**
 
+## Screenshots
+
+### Main obstacle course
+
+![Main obstacle course in Unreal Editor](docs/images/main-obstacle-course.png)
+
+### Cannons, collectibles, and platform section
+
+![Cannons, collectibles, and platform section](docs/images/cannons-and-platforms.png)
+
 ## What I built
 
 - Ball movement and player controls
@@ -34,6 +44,10 @@ The repository is a lightweight portfolio copy containing the main Blueprint and
 
 - Unreal Engine 5.5
 - Blueprint visual scripting
+
+## Assets
+
+The environment uses materials and base assets from Unreal Engine Starter Content. Those source assets are not included in this repository. I built the Blueprint gameplay logic and assembled the level shown in the demo and screenshots.
 
 ## Author
 
