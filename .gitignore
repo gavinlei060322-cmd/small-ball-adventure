@@ -1,0 +1,25 @@
+# Unreal generated directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+
+# Large engine/sample and third-party content excluded from this portfolio copy
+Content/StarterContent/
+Content/FirstPerson/
+Content/import/
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
