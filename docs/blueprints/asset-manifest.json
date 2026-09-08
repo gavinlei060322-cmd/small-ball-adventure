@@ -1,0 +1,93 @@
+[
+  {
+    "asset": "Content/blueprints/props/BA_Player.uasset",
+    "sha256": "d8bce308b166716e30ef6932631cc955028fe9abe871c4833ce3fe45f7b01522",
+    "nodes": 37,
+    "pins": 145,
+    "connections": 39
+  },
+  {
+    "asset": "Content/blueprints/props/Model_Cannon/Cannon_Blueprint.uasset",
+    "sha256": "c1395ee7536bc13d73e4ed86276587ffba31417b8e3905aa0ef57f9d40de8bc7",
+    "nodes": 21,
+    "pins": 78,
+    "connections": 21
+  },
+  {
+    "asset": "Content/blueprints/props/cannon_bullet.uasset",
+    "sha256": "fec82353fb0708087e707f73b98d8c9669f4b8dcb891a9dae4cad826449be6a2",
+    "nodes": 8,
+    "pins": 39,
+    "connections": 7
+  },
+  {
+    "asset": "Content/blueprints/props/BP_cristal.uasset",
+    "sha256": "1c79a13512d432b0066ef1d1dc9988fd7fc1a88bba3f22c05c8aef34979b97e5",
+    "nodes": 35,
+    "pins": 122,
+    "connections": 37
+  },
+  {
+    "asset": "Content/blueprints/props/Success_trigger.uasset",
+    "sha256": "7a1210a46f851dad7686ec62a3ceb96cd68582d3d2a49886362c4c4c6b8e0491",
+    "nodes": 52,
+    "pins": 186,
+    "connections": 62
+  },
+  {
+    "asset": "Content/blueprints/props/BP_falltriger.uasset",
+    "sha256": "6205f594c0b665f21410e8c78c79e66f77bb7653a9f771335dc1ec03d7ac26c3",
+    "nodes": 6,
+    "pins": 24,
+    "connections": 5
+  },
+  {
+    "asset": "Content/blueprints/props/BP_GameInstance.uasset",
+    "sha256": "6347e621534c6c42ed91d4a195392e68db27b5bb38d705593975c327bd6c8a36",
+    "nodes": 3,
+    "pins": 7,
+    "connections": 2
+  },
+  {
+    "asset": "Content/blueprints/props/BP_UI.uasset",
+    "sha256": "6db7f186b64a8b94f87d07d051112749a69ae4683ced6b57905ece26b5f32821",
+    "nodes": 42,
+    "pins": 113,
+    "connections": 36
+  },
+  {
+    "asset": "Content/blueprints/props/NewMacroLibrary.uasset",
+    "sha256": "bb2ef7ba9b486c0b896f0697d971d6ac9800499ed807b271504ac44e9cb5a35f",
+    "nodes": 22,
+    "pins": 80,
+    "connections": 28
+  },
+  {
+    "asset": "Content/blueprints/props/BP_Spotlight_follow.uasset",
+    "sha256": "9ec7d1bb9afe52a6cf429ef62de9cad6adb0fcab1dfef623d4c7cc4e166ed5c0",
+    "nodes": 20,
+    "pins": 67,
+    "connections": 19
+  },
+  {
+    "asset": "Content/blueprints/props/BA_game_mode.uasset",
+    "sha256": "dab3b8378be9233d25f6b6d86260648cb87519d8ac2922e89f1dd2e346cdc572",
+    "nodes": 3,
+    "pins": 6,
+    "connections": 0
+  },
+  {
+    "asset": "Content/blueprints/hitwall/BP_cube_hit.uasset",
+    "sha256": "a1cf3061564256377d261c83e0ebad7a313bd4a1bad91ae9a2e3ef2c60b0be57",
+    "nodes": 4,
+    "pins": 9,
+    "connections": 0
+  },
+  {
+    "asset": "Content/blueprints/hitwall/bullit_Blueprint.uasset",
+    "sha256": "8f6248203251ab69870a4186a54edeb0c97c13967a300b032a9356edfe70deaf",
+    "nodes": 4,
+    "pins": 9,
+    "connections": 0
+  }
+]

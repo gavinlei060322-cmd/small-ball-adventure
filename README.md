@@ -2,9 +2,25 @@
 
 Small Ball Adventure is my first game project. I built it independently in Unreal Engine 5.5 with Blueprint while learning how gameplay systems work together.
 
-[![Watch the gameplay demo](https://img.youtube.com/vi/G0ebrOazVws/maxresdefault.jpg)](https://youtu.be/G0ebrOazVws)
+[![Watch the gameplay demo](docs/images/main-obstacle-course.png)](https://youtu.be/G0ebrOazVws)
 
 **[Watch the gameplay demo on YouTube](https://youtu.be/G0ebrOazVws)**
+
+## Blueprint logic
+
+**[Read the gameplay and Blueprint walkthrough](docs/blueprints/README.md)** — actual node connections, execution diagrams, input values and explanations for the main systems.
+
+| System | Implementation |
+| --- | --- |
+| [Player](docs/blueprints/BA_Player.md) | Physics-based rolling, win-state input checks, camera setup, restart on damage |
+| [Cannon](docs/blueprints/Cannon_Blueprint.md) / [projectile](docs/blueprints/cannon_bullet.md) | Repeating spawn loop, recoil timeline, collision and player damage |
+| [Crystals](docs/blueprints/BP_cristal.md) | Timeline-driven movement, shrinking and light fade; count on completion |
+| [Exit](docs/blueprints/Success_trigger.md) | Require all crystals, advance levels, set final win state |
+| [UI](docs/blueprints/BP_UI.md) / [shared state](docs/blueprints/BP_GameInstance.md) | Collection counter, elapsed time and win feedback |
+| [Reusable macros](docs/blueprints/NewMacroLibrary.md) / [fall trigger](docs/blueprints/BP_falltriger.md) | Player checks, camera fades and level restart |
+| [Spotlight](docs/blueprints/BP_Spotlight_follow.md) | Smooth player tracking while inside its overlap area |
+
+[What the files mean / 中文文件导览](docs/PROJECT-GUIDE-ZH.md)
 
 ## Screenshots
 
@@ -19,9 +35,9 @@ Small Ball Adventure is my first game project. I built it independently in Unrea
 ## What I built
 
 - Ball movement and player controls
-- Projectile firing and hit detection
-- Damage and failure logic
-- Collisions, triggers, and level progression
+- Automatic cannon firing, recoil animation and projectile hit detection
+- Restart on damage or falling out of the course
+- Animated crystal collection, exit checks and two-level progression
 - A simple user interface and gameplay feedback
 - Multiple test maps used while building and debugging features
 
@@ -32,9 +48,10 @@ This project taught me how to connect player input, actor behaviour, collisions,
 ## Project structure
 
 - `Content/blueprints/props` - player logic, UI, triggers, and interactive objects
-- `Content/blueprints/hitwall` - projectiles and hit detection
+- `Content/blueprints/hitwall` - early practice assets with unconnected event nodes
 - `Content/Maps` - the main level and gameplay test maps
 - `Config` - Unreal project and input settings
+- `docs/blueprints` - browser-readable explanations and node references
 
 ## Running the project
 
